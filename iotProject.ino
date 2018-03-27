@@ -7,9 +7,9 @@ int a=0,b=0;                                      //these two variables for LED'
 const int trigPin = 9;                            //9th pins of Arduino connected to trigger pin of HC-SR04(sends a pulse)
 const int echoPin = 8;                            //8th pin of Arduino connected to echo pin of HC-SR04(receives pulse)           
 long duration, inches, cm;                        //these are the variables used in the code
-char auth[] = "58bba11ca2d34236947da52d2775d123"; //this is the authentication token to get connected with the app(sent to email by Blynk app)
-char ssid[] = "myiotproject";                     //enter the wi-fi name here
-char pass[] = "zeeboomba";                        //enter the passward here
+char auth[] = "********************************"; //this is the authentication token to get connected with the app(sent to email by Blynk app)
+char ssid[] = "************";                     //enter the wi-fi name here
+char pass[] = "*********";                        //enter the passward here
 BlynkTimer timer;                                 //declaring the Blynk timer(which triggers the server in an interval)
 
 void setup()
