@@ -1,14 +1,14 @@
 # IoTBasedWaterMonitoringAndControllingSystem
 The aim of this preject is to monitor the water level in the over head tank and control the motor with an app over internet. I used Blynk library with arduino. In this project I used Arduino Uno, esp8266, L293D IC,12V relay, 240VAC cooler motor and Blynk app
-
+I provided only Nessesary files.
 FOLLOW THESE STEPS TO UNDERSTAND THE PROJECT:
 Step1:
-Install Arduino-IDE_which included in the software folder or newer.
+Install Arduino-IDE_which included in the software folder or download newer.
 Step2:
 Install the Blynk library to the Arduino-IDE (go to Sketch>Include library>Manage
 libraries>Search "Blynk">Install latest version
 Step3:
-Open the iotProject.ino file_which included in the firmware folder.
+Open the iotProject.ino
 Step4:
 Just look into the code and the logics in it.
 Step5:
